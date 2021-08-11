@@ -19,7 +19,7 @@ function App() {
           <Route path ="/transactions/:index"> 
           <transaction /> 
           </Route >
-          <Route path="/transactions">
+          <Route path="/transactions" component={transactions}>
             <transactions />
           </Route>
           </Switch>
